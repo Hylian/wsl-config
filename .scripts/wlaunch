@@ -1,0 +1,5 @@
+#!/bin/bash
+export DISPLAY=127.0.0.1:0.0
+xset r rate 200 60
+cd ~
+i3 -V -d all

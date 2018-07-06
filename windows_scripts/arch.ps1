@@ -1,0 +1,2 @@
+start shell:AppsFolder\$(get-appxpackage -name ChoungNetworksUS.X410 | select -expandproperty PackageFamilyName)!App
+Start-Process -WindowStyle hidden -FilePath "C:\Users\Edward\Documents\Arch.exe" -ArgumentList "run ~/.scripts/wlaunch"
